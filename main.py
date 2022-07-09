@@ -29,7 +29,6 @@ def cprint(color,content):
     elif color == 'light_purple':
         print('\033[95m'+content+'\033[0m')
 def pin_gen():
-    ex='1212-2323-3434-454545'
     pin=[]
     for i in range(3):
         pin.append(random.randint(1000,9999))
